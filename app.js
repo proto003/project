@@ -1,6 +1,15 @@
 const wrapper = document.querySelector(".sliderWrapper");
 const menuItems = document.querySelectorAll(".menuItem");
 
+
+document.getElementById("parentLogin").addEventListener("click", function() {
+    window.location.href = "parentLogin.html";  
+});
+
+document.getElementById("studentLogin").addEventListener("click", function() {
+    window.location.href = "studentLogin.html";  
+});
+
 const products = [
   {
     id: 1,

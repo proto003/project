@@ -7,7 +7,28 @@ html {
     padding: 0;
     margin: 0;
   }
-  
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: auto;
+    padding: 20px;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+ 
+
+
   nav {
     background-color: #111;
     color: white;
@@ -55,6 +76,25 @@ html {
     color: lightgray;
     font-weight: 400;
   }
+
+  .button {
+    margin-right: 40px;
+    background-color: #111; 
+    color: lightgray; 
+    padding: 10px 20px;   
+    border: none;   
+    border-radius: 5px;   
+    font-size: 16px;  
+    font-weight: 600;   
+    cursor: pointer;  
+    transition: background-color 0.3s ease;   
+}
+
+.button:hover {
+    background-color: #3dd1c0;
+    color: rgb(7, 2, 2); 
+}
+
   
   .slider {
     background: url("https://images.unsplash.com/photo-1604147495798-57beb5d6af73?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80");
